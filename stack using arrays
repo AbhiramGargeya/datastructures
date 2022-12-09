@@ -1,0 +1,16 @@
+#stack using arrays
+stack = []
+
+x = int(input("enter the limit of stack:"))
+
+print("Enter the stack elements:")
+for i in range (x):
+    ele = input()
+    stack.append(ele)
+print("Stack elements are:")
+print(stack)
+print("deleted elements:")
+print(stack.pop())
+print(stack.pop())
+print("stack elements after popping")
+print(stack)
