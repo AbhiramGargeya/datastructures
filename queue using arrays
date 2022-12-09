@@ -1,0 +1,31 @@
+#queue using arrays
+
+queue = []
+
+
+l = int(input("enter the size of queue:"))
+def enque(ele):
+    s = len(queue)
+    if(s<=l):
+        queue.append(ele)
+def deque():
+    i =0
+    s = len(queue)
+    if (i<=s):
+        print(queue[i])
+        queue.pop(i)
+        i+=1
+enque(1)
+enque(3)
+enque(4)
+enque(5)
+print("queue elements:")
+print(queue)
+print("deleted elements")
+deque()
+deque()
+deque()
+print("after deleting:")
+print(queue)
+
+
